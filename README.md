@@ -2,7 +2,7 @@
 
 
 Capstone Front-End User Story
-
+______________________
 - As a user, I would like to view all the components of the website on the home page
 - As a user, I would like to see the hours of operation
 - As a user, I would like to view the contact information for the store
@@ -17,3 +17,10 @@ Capstone Front-End User Story
      - Item out of stock if stock is 0
      - Item does not exist if it has never been ordered
      - Item does not match inventory if spelling is incorrect
+
+
+
+# Wireframe
+___________________
+
+![LiquorStore Wireframe drawio (1)](https://user-images.githubusercontent.com/94800802/155409852-dd591805-6c85-4b37-badc-4cc3dc99abf8.png)
