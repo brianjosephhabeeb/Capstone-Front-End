@@ -14,6 +14,7 @@ import { HeaderComponent } from './header/header.component';
 import { CocktailsComponent } from './cocktails/cocktails.component';
 import { OrdersComponent } from './orders/orders.component';
 import { LinksComponent } from './links/links.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LinksComponent } from './links/links.component';
     HeaderComponent,
     CocktailsComponent,
     OrdersComponent,
-    LinksComponent
+    LinksComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
