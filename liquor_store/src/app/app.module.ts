@@ -8,6 +8,7 @@ import { SpiritsComponent } from './spirits/spirits.component';
 import { HoursComponent } from './hours/hours.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { FavoritesComponent } from './favorites/favorites.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     SpiritsComponent,
     HoursComponent,
     SlideshowComponent,
-    SidebarComponent
+    SidebarComponent,
+    FavoritesComponent
   ],
   imports: [
     BrowserModule,
