@@ -9,6 +9,7 @@ import { HoursComponent } from './hours/hours.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FavoritesComponent } from './favorites/favorites.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FavoritesComponent } from './favorites/favorites.component';
     HoursComponent,
     SlideshowComponent,
     SidebarComponent,
-    FavoritesComponent
+    FavoritesComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
