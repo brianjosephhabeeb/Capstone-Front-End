@@ -7,6 +7,7 @@ import { SearchComponent } from './search/search.component';
 import { SpiritsComponent } from './spirits/spirits.component';
 import { HoursComponent } from './hours/hours.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
     SearchComponent,
     SpiritsComponent,
     HoursComponent,
-    SlideshowComponent
+    SlideshowComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
