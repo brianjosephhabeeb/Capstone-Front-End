@@ -15,6 +15,7 @@ import { CocktailsComponent } from './cocktails/cocktails.component';
 import { OrdersComponent } from './orders/orders.component';
 import { LinksComponent } from './links/links.component';
 import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AboutComponent } from './about/about.component';
     CocktailsComponent,
     OrdersComponent,
     LinksComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
