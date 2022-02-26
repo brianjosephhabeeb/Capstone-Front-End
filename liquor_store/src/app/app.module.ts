@@ -11,6 +11,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FavoritesComponent } from './favorites/favorites.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
+import { CocktailsComponent } from './cocktails/cocktails.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HeaderComponent } from './header/header.component';
     SidebarComponent,
     FavoritesComponent,
     NavbarComponent,
-    HeaderComponent
+    HeaderComponent,
+    CocktailsComponent
   ],
   imports: [
     BrowserModule,
