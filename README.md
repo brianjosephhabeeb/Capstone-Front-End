@@ -23,4 +23,4 @@ ______________________
 # Wireframe
 ___________________
 
-![LiquorStore Wireframe](https://user-images.githubusercontent.com/94800802/155851476-1e390e73-e3c1-4045-bed1-ded8558d903f.jpg)
+![LiquorStore Wireframe drawio (2)](https://user-images.githubusercontent.com/94800802/155851953-324daace-23ee-4f31-93a1-2a793d30fd2e.png)
