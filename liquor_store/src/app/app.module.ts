@@ -10,6 +10,7 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FavoritesComponent } from './favorites/favorites.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     SlideshowComponent,
     SidebarComponent,
     FavoritesComponent,
-    NavbarComponent
+    NavbarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
