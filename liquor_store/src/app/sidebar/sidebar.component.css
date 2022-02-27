@@ -1,0 +1,14 @@
+.sidebar {
+   background-color: red;
+   position: fixed;
+   top: 450px;
+   right: 10px;
+   height: 30vh;
+   width: 10vw;
+}
+
+.link {
+    text-align: center;
+    font-size: 30px;
+    
+}
