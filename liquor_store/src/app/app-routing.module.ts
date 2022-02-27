@@ -4,15 +4,30 @@ import { CocktailsComponent } from './cocktails/cocktails.component';
 import { FavoritesComponent } from './favorites/favorites.component';
 import { LinksComponent } from './links/links.component';
 import { OrdersComponent } from './orders/orders.component';
-import { SlideshowComponent } from './slideshow/slideshow.component';
 import { SpiritsComponent } from './spirits/spirits.component';
 
 const routes: Routes = [
   {
-    path: 'home',
-    component: SlideshowComponent
+    path: 'seasonalcocktails',
+    component: CocktailsComponent
   },
-  
+  {
+    path: 'favorites',
+    component: FavoritesComponent
+  },
+  {
+    path: 'links',
+    component: LinksComponent
+  },
+  {
+    path: 'orders',
+    component: OrdersComponent
+  },
+  {
+    path: 'spirits',
+    component: SpiritsComponent
+  }
+
 ];
 
 @NgModule({
