@@ -17,6 +17,7 @@ import { LinksComponent } from './links/links.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
+import { DistributorComponent } from './distributor/distributor.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FormsModule } from '@angular/forms';
     OrdersComponent,
     LinksComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    DistributorComponent
   ],
   imports: [
     BrowserModule,
