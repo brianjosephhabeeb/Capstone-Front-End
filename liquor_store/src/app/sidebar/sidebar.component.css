@@ -1,4 +1,4 @@
-.sidebar {
+/* .sidebar {
    background-color: red;
    position: fixed;
    top: 450px;
@@ -10,5 +10,36 @@
 .link {
     text-align: center;
     font-size: 30px;
-    
-}
+} */
+
+/* The sidebar menu */
+.sidebar {
+    height: 40%; 
+    width: 300px; 
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 450px; /* Stay at the top */
+    right: 10px;
+    background-color: green; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .link {
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .link {font-size: 18px;}
+  }
