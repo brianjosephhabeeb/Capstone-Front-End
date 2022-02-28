@@ -3,3 +3,13 @@
     font-weight: bold;
 }
 
+.Nav.link1 {
+    text-align: left;
+    align-items: flex-start;
+    align-content: left;
+}
+
+.Nav.link2 {
+    align-items: center;
+}
+

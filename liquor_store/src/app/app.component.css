@@ -5,3 +5,7 @@ body {
     margin-right: auto;
     max-width: 100%;
 }
+
+.page {
+    background-color: black;
+}
