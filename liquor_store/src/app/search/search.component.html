@@ -1,4 +1,4 @@
 <section>
-    <input type="text" placeholder="Enter Liquor Name Here"/>
-    <input type="submit" value="Search"/>
+    <input [(ngModel)]="bottleName" [(ngModel)]="distributorName" type="text" placeholder="Enter Liquor or Distributor Name Here"/>
+    <input (click)="findDistributor(distributorName)" (click)="findBottle(bottleName)" type="submit" value="Search"/>
 </section>

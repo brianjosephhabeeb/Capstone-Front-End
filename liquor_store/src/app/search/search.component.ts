@@ -6,8 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
+  bottleName: string = '';
+  distributorName: string = '';
 
   constructor() { }
+
+  findDistributor(distributorName: string) {
+
+  }
+
+  findBottle(bottleName: string) {
+    
+  }
 
   ngOnInit(): void {
   }
