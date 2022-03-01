@@ -1,2 +1,19 @@
 <app-distributors></app-distributors>
 <app-bottles></app-bottles>
+<h1>Welcome to Habeeb's Dispensary</h1>
+<nav>
+  <ul>
+    <li>
+      <a routerLink="/">Home</a>
+    </li>
+    <li>
+      Distributor
+      <ul>
+        <li *ngFor="let distributor of distributors">
+          <a routerLink="/distributor{{distributor.id}}">{{distributor.name}}</a>
+        </li>
+    <li>
+      <a routerLink="/bottles">Bottles</a>
+    </li>
+  </ul>
+</nav>
