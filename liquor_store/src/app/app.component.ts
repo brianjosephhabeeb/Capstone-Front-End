@@ -7,5 +7,5 @@ import { DistributorsComponent } from './distributors/distributors.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  distributors = DISTRIBUTORS;
+  distributors = DistributorsComponent;
 }

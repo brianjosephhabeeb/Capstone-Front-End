@@ -12,8 +12,10 @@
         <li *ngFor="let distributor of distributors">
           <a routerLink="/distributor{{distributor.id}}">{{distributor.name}}</a>
         </li>
+      </ul>
     <li>
       <a routerLink="/bottles">Bottles</a>
     </li>
   </ul>
 </nav>
+<router-outlet></router-outlet>
