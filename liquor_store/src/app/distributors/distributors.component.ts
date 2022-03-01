@@ -7,13 +7,17 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./distributors.component.css']
 })
 export class DistributorsComponent implements OnInit {
-  distributorIndex: string|null = ' ';
+  distributor: any;
+
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.paramMap
     .subscribe(params => {
-      this.distributorIndex = params.get('id');
+      this.distributor = DISTRIBUTORS.find(distributor => {
+      let paramId: string = params.get('id') || '';
+      return distributor.id === parseInt(paramId);
+      })
     })
   }
 
