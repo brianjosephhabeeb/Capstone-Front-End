@@ -1,11 +1,10 @@
 <section>
-    <input [(ngModel)]="distributorName" type="text" placeholder="Enter Distributor Name Here"/>
-    <input (click)="findDistributor(distributorName)" type="submit" value="Search"/>
-</section>
-<section *ngIf="distributors">
-    <ul>
-        <li *ngFor="let distributor of distributors">
-            <h3>{{distributor.name}}</h3>
-        </li>
-    </ul>
+    <input [(ngModel)]="searchedDistributor" type="text" placeholder="Enter Distributor Name"/>
+    <input (click)="findDistributor()" type="submit" value="Search"/>
+    <tr *ngFor="let distributor of distributors">
+      {{distributor|json}}
+        <ng-container *ngIf="distributor.distributorName === searchedDistributor">
+          <td>{{distributor.distributorName}}</td><br>
+            </ng-container>
+      </tr>
 </section>

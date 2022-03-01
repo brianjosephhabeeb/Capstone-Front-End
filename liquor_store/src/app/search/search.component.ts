@@ -7,14 +7,17 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  distributorName: string = '';
+  distributorName: any = '';
   distributors: any;
+  searchedDistributor: any;
+  search: any;
 
   constructor(private http: HttpClient) { }
 
-  findDistributor(distributorName: string) {
+  findDistributor() {
     this.http
-    .get(`https://liquor-store-inventory.herokuapp.com/api/distributor?distributorName=${distributorName}`).subscribe(response => {
+    .get('https://liquor-store-inventory.herokuapp.com/api/distributor')
+    .subscribe((response) => {
       console.log(response)
       this.distributors = response;
     })

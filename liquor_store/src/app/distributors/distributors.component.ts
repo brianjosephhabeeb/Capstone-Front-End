@@ -12,13 +12,7 @@ export class DistributorsComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    // this.route.paramMap
-    // .subscribe(params => {
-    //   this.distributor = DISTRIBUTORS.find(distributor => {
-    //   let paramId: string = params.get('id') || '';
-    //   return distributor.id === parseInt(paramId);
-    //   })
-    // })
+   
   }
 
 }
