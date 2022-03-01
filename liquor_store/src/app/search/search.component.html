@@ -1,4 +1,11 @@
 <section>
-    <input [(ngModel)]="bottleName" [(ngModel)]="distributorName" type="text" placeholder="Enter Liquor or Distributor Name Here"/>
-    <input (click)="findDistributor(distributorName)" (click)="findBottle(bottleName)" type="submit" value="Search"/>
+    <input [(ngModel)]="distributorName" type="text" placeholder="Enter Distributor Name Here"/>
+    <input (click)="findDistributor(distributorName)" type="submit" value="Search"/>
+</section>
+<section *ngIf="distributors">
+    <ul>
+        <li *ngFor="let distributor of distributors">
+            <h3>{{distributor.name}}</h3>
+        </li>
+    </ul>
 </section>
