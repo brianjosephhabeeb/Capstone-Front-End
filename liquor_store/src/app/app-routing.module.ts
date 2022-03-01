@@ -6,12 +6,15 @@ import { DistributorsComponent } from './distributors/distributors.component';
 const routes: Routes = [
   {
     path: 'distributor/:id',
-    component: DistributorsComponent
+    component: DistributorsComponent,
+    children: [
+      {
+        path: 'bottles',
+        component: BottlesComponent
+      }
+    ]
   },
-  {
-    path: 'bottles',
-    component: BottlesComponent
-  }
+  
 ];
 
 @NgModule({
