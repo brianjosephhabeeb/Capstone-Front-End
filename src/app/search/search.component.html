@@ -4,9 +4,20 @@
     <tr *ngFor="let distributor of distributors">
       <!-- {{distributor|json}} -->
         <ng-container *ngIf="distributor.distributorName === searchedDistributor">
-          <h2>{{distributor.distributorName}}</h2>
-          
-          
+          <div class="info">
+          <h2 >{{distributor.distributorName}}</h2>
+          <h3>{{distributor.bottleList[0].name}}</h3>
+          <!-- <h3>{{distributor.bottleList[0].endingInventory}}</h3> -->
+          <h3>{{distributor.bottleList[1].name}}</h3>
+          <h3>{{distributor.bottleList[2].name}}</h3>
+          <h3>{{distributor.bottleList[3].name}}</h3>
+          <h3>{{distributor.bottleList[4].name}}</h3>
+          <h3>{{distributor.bottleList[5].name}}</h3>
+          <h3>{{distributor.bottleList[6].name}}</h3>
+          <h3>{{distributor.bottleList[7].name}}</h3>
+          <h3>{{distributor.bottleList[8].name}}</h3>
+          <h3>{{distributor.bottleList[9].name}}</h3>
+        </div>
             </ng-container>
       </tr>
 </section>
