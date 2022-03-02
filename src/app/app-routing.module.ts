@@ -4,16 +4,16 @@ import { BottlesComponent } from './bottles/bottles.component';
 import { DistributorsComponent } from './distributors/distributors.component';
 
 const routes: Routes = [
-  {
-    path: 'distributor/:id',
-    component: DistributorsComponent,
-    children: [
-      {
-        path: 'bottles',
-        component: BottlesComponent
-      }
-    ]
-  },
+  // {
+  //   path: 'distributor/:id',
+  //   component: DistributorsComponent,
+  //   children: [
+  //     {
+  //       path: 'bottles',
+  //       component: BottlesComponent
+  //     }
+  //   ]
+  // },
   
 ];
 
