@@ -5,7 +5,7 @@ ____________________________
 ## Table of Content
 1. [ Description ](#desc)
 2. [ Planning ](#plan)
-3. [ WireFrame ](#WireFrame)
+3. [ WireFrame ](#Wireframe)
 4. [ Technologies-Used ](#Technologies-Used)
 5. [ Resources ](#Resources)
 6. [ Wins and Struggles ](#WinsandStruggles)
@@ -26,5 +26,8 @@ ____________________________
 - As a user, I would like to view the list of seasonal cocktails
 - As a user, I would like the search bar to take me to a specific bottle I am looking for
 - As a user, I would like there to be clear error messages for the search component
+
+<a name="Wireframe"></a>
+## 3. Wireframe
 
 
