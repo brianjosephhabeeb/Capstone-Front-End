@@ -39,7 +39,7 @@ ____________________________
 2. Typescript
 3. HTML
 4. CSS
-5. Heroku
+5. Vercel
 6. Draw.io
 
 <a name="Resources"></a>
