@@ -2,9 +2,11 @@
     <input [(ngModel)]="searchedDistributor" type="text" placeholder="Enter Distributor Name"/>
     <input (click)="findDistributor()" type="submit" value="Search"/>
     <tr *ngFor="let distributor of distributors">
-      {{distributor|json}}
+      <!-- {{distributor|json}} -->
         <ng-container *ngIf="distributor.distributorName === searchedDistributor">
-          <td>{{distributor.distributorName}}</td><br>
+          <h2>{{distributor.distributorName}}</h2>
+          
+          
             </ng-container>
       </tr>
 </section>
