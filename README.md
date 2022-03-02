@@ -19,12 +19,12 @@ ____________________________
 ## 2. Planning
 
 ## User Story
--- As a user, I would like to see all liquor that is in stock 
--- As a user, I would like to view liquor by distributor
--- As a user, I would like to view all distributors
--- As a user, I would like to place an order using a form
--- As a user, I would like to view the list of seasonal cocktails
--- As a user, I would like the search bar to take me to a specific bottle I am looking for
--- As a user, I would like there to be clear error messages for the search component
+- As a user, I would like to see all liquor that is in stock 
+- As a user, I would like to view liquor by distributor
+- As a user, I would like to view all distributors
+- As a user, I would like to place an order using a form
+- As a user, I would like to view the list of seasonal cocktails
+- As a user, I would like the search bar to take me to a specific bottle I am looking for
+- As a user, I would like there to be clear error messages for the search component
 
 
