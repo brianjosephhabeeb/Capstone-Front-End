@@ -1,27 +1,62 @@
-# LiquorStore
+![Screen Shot 2022-03-02 at 10 44 04 AM](https://user-images.githubusercontent.com/94800802/156396062-0e9d44c9-de0d-4864-b25e-3feaa2290785.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+____________________________
 
-## Development server
+## Table of Content
+1. [ Description ](#desc)
+2. [ Planning ](#plan)
+3. [ WireFrame ](#Wireframe)
+4. [ Technologies Used ](#Technologies-Used)
+5. [ Resources ](#Resources)
+6. [ Wins and Struggles ](#WinsandStruggles)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<a name="desc"></a>
+## 1. Description
 
-## Code scaffolding
+## Create a front end application using Angular.  I created a website where the user can view a liquor stores inventory.  The bottles are listed under the distributor's portfolio.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<a name="plan"></a>
+## 2. Planning
 
-## Build
+## User Story
+- As a user, I would like to see all liquor that is in stock 
+- As a user, I would like to view liquor by distributor
+- As a user, I would like to view all distributors
+- As a user, I would like to place an order using a form
+- As a user, I would like to view the list of seasonal cocktails
+- As a user, I would like the search bar to take me to a specific bottle I am looking for
+- As a user, I would like there to be clear error messages for the search component
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<a name="Wireframe"></a>
+## 3. Wireframe
 
-## Running unit tests
+![LiquorStore Wireframe drawio (3)](https://user-images.githubusercontent.com/94800802/156393932-ff4f8972-e6b9-4591-a4b0-423b038ddda2.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<a name="Technologies-Used"></a>
+## 4. Technologies Used
 
-## Running end-to-end tests
+1. Angular
+2. Typescript
+3. HTML
+4. CSS
+5. Heroku
+6. Draw.io
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<a name="Resources"></a>
+## 5.  Resources
 
-## Further help
+1. W3schools
+2. Youtube
+3. geeksforgeeks
+4. angular.io
+5. Google
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+<a name="WinsandStruggles"></a>
+## 6. Wins and Struggles
+
+### Wins
+- Getting my front end deployed, connected to my back end and the search component working were my only real wins.  
+
+### Struggles
+- My biggest struggle is starting small and coding incrementally.  I have always wanted to "run before I could walk" so this approach is very foreign to me.  Routing links that I was initially going to incorporate proved to be too time consuming if I was going to get this project completed on time.  Also wanted to add a form feature and add more functionality to the search componenet.  I will continue to work on these after our cohort wraps up.
