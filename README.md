@@ -30,4 +30,4 @@ ____________________________
 <a name="Wireframe"></a>
 ## 3. Wireframe
 
-
+![LiquorStore Wireframe drawio (3)](https://user-images.githubusercontent.com/94800802/156393932-ff4f8972-e6b9-4591-a4b0-423b038ddda2.png)
